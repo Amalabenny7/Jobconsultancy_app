@@ -47,7 +47,7 @@ class _vw_feedState extends State<vw_feed> {
         ),
       ),
       body: Container(
-        decoration: BoxDecoration(
+        decoration:const BoxDecoration(
           image: DecorationImage(
             image: AssetImage('asset/1.jpeg'),
             fit: BoxFit.cover,
@@ -62,7 +62,7 @@ class _vw_feedState extends State<vw_feed> {
                 borderRadius: BorderRadius.circular(16.0),
               ),
               child: Padding(
-                padding: EdgeInsets.all(16.0),
+                padding: const EdgeInsets.all(16.0),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
