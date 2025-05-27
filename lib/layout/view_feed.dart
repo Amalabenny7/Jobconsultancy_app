@@ -38,7 +38,7 @@ class _vw_feedState extends State<vw_feed> {
     return Scaffold(
       // drawer: draw(),
       appBar: AppBar(
-        title: Text(
+        title: const Text(
           "View Feedback History",
           style: TextStyle(
             fontSize: 30,
